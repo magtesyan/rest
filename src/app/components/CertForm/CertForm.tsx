@@ -3,8 +3,9 @@
 import { useState } from "react";
 import clsx from "clsx";
 
-import styles from "./CertForm.module.scss";
 import { Button } from "../ui/Button/Button";
+
+import styles from "./CertForm.module.scss";
 
 enum Tab {
   FromMe,

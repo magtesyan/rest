@@ -15,7 +15,7 @@ export const Promo = () => {
           <img
             className={styles.promoIcon}
             src="/icons/promo/eat.svg"
-            alt="Рестораны"
+            alt="Еда"
           />
           <p className={styles.promoItemText}>
             <span className={styles.promoLink}>Более 100 ресторанов</span>, кафе
@@ -26,23 +26,29 @@ export const Promo = () => {
           <img
             className={styles.promoIcon}
             src="/icons/promo/present.svg"
-            alt="Рестораны"
+            alt="Подарок"
           />
           <p className={styles.promoItemText}>
-            <span className={styles.promoLink}>Легко дарить:</span> купите
-            онлайн и отправьте на email получателю с персональными пожеланиями.
+            <span
+              className={styles.promoLink}
+              onClick={() => goToSection("#howWorks")}
+            >
+              Легко дарить:
+            </span>{" "}
+            купите онлайн и отправьте на email получателю с персональными
+            пожеланиями.
           </p>
         </li>
         <li className={styles.promoItem}>
           <img
             className={styles.promoIcon}
             src="/icons/promo/plate.svg"
-            alt="Рестораны"
+            alt="Блюда"
           />
           <p className={styles.promoItemText}>
             <span
               className={styles.promoLink}
-              onClick={() => goToSection("#howWorks")}
+              onClick={() => goToSection("#faq")}
             >
               Удобно пользоваться:
             </span>
@@ -54,7 +60,7 @@ export const Promo = () => {
           <img
             className={styles.promoIcon}
             src="/icons/promo/heart.svg"
-            alt="Рестораны"
+            alt="Сердце"
           />
           <p className={styles.promoItemText}>
             <span
