@@ -1,0 +1,44 @@
+.howWorks {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.howWorksTitle {
+  font-size: 32px;
+  max-width: 750px;
+  margin-bottom: 30px;
+}
+
+.howWorksList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.howWorksItem {
+  display: flex;
+  gap: 20px;
+  max-width: 555px;
+  border-bottom: 1px solid var(--gray);
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  &_button {
+    align-items: center;
+    height: 150px;
+    display: flex;
+    margin-left: 60px;
+  }
+}
+
+.howWorksNumber {
+  position: relative;
+  top: -5px;
+  opacity: 0.5;
+  font-size: 32px;
+}
+
+.howWorksText {
+  font-size: 24px;
+  line-height: 1.4;
+}

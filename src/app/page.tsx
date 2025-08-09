@@ -6,6 +6,7 @@ import { Advantages } from "./components/Advantages/Advantages";
 import { CertForm } from "./components/CertForm/CertForm";
 
 import styles from "./page.module.css";
+import { HowWorks } from "./components/HowWorks/HowWorks";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           <Promo />
           <CertForm />
           <Advantages />
+          <HowWorks />
         </main>
         <footer className={styles.footer}></footer>
       </div>

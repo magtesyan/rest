@@ -17,7 +17,7 @@ export const CertForm = () => {
   const prices = [10, 15, 20, 30, 50];
 
   return (
-    <div className={styles.certForm}>
+    <div className={styles.certForm} id="certForm">
       <div className={styles.tabs}>
         <button
           className={clsx(styles.tab, tab === Tab.FromMe && styles.tab_current)}

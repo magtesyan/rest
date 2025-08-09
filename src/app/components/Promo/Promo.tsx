@@ -2,13 +2,9 @@
 
 import styles from "./Promo.module.scss";
 
-export const Promo = () => {
-  const gotoAdv = () => {
-    document.querySelector("#adv")?.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
+import { goToSection } from "@/app/utils/goToFunctions";
 
+export const Promo = () => {
   return (
     <section className={styles.promo}>
       <h1 className={styles.promoTitle}>
@@ -44,7 +40,12 @@ export const Promo = () => {
             alt="Рестораны"
           />
           <p className={styles.promoItemText}>
-            <span className={styles.promoLink}>Удобно пользоваться:</span>
+            <span
+              className={styles.promoLink}
+              onClick={() => goToSection("#howWorks")}
+            >
+              Удобно пользоваться:
+            </span>
             достаточно назвать номер сертификата, чтобы оплатить счет в
             ресторане
           </p>
@@ -56,7 +57,10 @@ export const Promo = () => {
             alt="Рестораны"
           />
           <p className={styles.promoItemText}>
-            <span className={styles.promoLink} onClick={gotoAdv}>
+            <span
+              className={styles.promoLink}
+              onClick={() => goToSection("#adv")}
+            >
               Дарите яркие впечатления
             </span>{" "}
             тем, кого любите: идеальный подарок друзьям, коллегам и близким.
