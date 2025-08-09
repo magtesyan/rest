@@ -1,0 +1,37 @@
+.advItem {
+  width: 260px;
+  border-radius: 16px;
+  background: var(--white);
+}
+
+.advTitle {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.advList {
+  display: flex;
+  gap: 30px;
+}
+
+.advPic {
+  width: 260px;
+  height: 240px;
+}
+
+.advInfo {
+  padding: 15px 13px;
+}
+
+.advSubtitle {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--black);
+  margin-bottom: 10px;
+}
+
+.advText {
+  font-size: 18px;
+  color: var(--lightGray);
+}

@@ -4,6 +4,7 @@ import { Header } from "./components/Header/Header";
 
 import styles from "./page.module.css";
 import { Promo } from "./components/Promo/Promo";
+import { Advantages } from "./components/Advantages/Advantages";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Header />
         <main className={styles.main}>
           <Promo />
+          <Advantages />
         </main>
         <footer className={styles.footer}>
           <a
