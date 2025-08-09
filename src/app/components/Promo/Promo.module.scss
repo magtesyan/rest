@@ -1,3 +1,8 @@
+.promo {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
 .promoTitle {
   font-size: 52px;
   max-width: 750px;
@@ -27,6 +32,7 @@
 .promoLink {
   font-weight: 500;
   border-bottom: 2px dashed white;
+  cursor: pointer;
 }
 
 .promoIcon {

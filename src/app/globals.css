@@ -3,6 +3,9 @@
   --black: #171717;
   --gray: #3e3e3e;
   --lightGray: #a8a8a8;
+  --buttonGray: #eeeeee;
+  --red: #ff3838;
+  --blue: #6da3ff;
 }
 
 html,
@@ -17,6 +20,11 @@ body {
   font-family: var(--font-rubik-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+textarea {
+  font-family: var(--font-rubik-sans);
 }
 
 * {
@@ -34,6 +42,19 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -2,7 +2,7 @@ import styles from "./Advantages.module.scss";
 
 export const Advantages = () => {
   return (
-    <section className={styles.adv}>
+    <section className={styles.adv} id="adv">
       <h2 className={styles.advTitle}>Преимущества</h2>
       <ul className={styles.advList}>
         <li className={styles.advItem}>

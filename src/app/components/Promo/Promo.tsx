@@ -1,6 +1,14 @@
+"use client";
+
 import styles from "./Promo.module.scss";
 
 export const Promo = () => {
+  const gotoAdv = () => {
+    document.querySelector("#adv")?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <section className={styles.promo}>
       <h1 className={styles.promoTitle}>
@@ -48,7 +56,9 @@ export const Promo = () => {
             alt="Рестораны"
           />
           <p className={styles.promoItemText}>
-            <span className={styles.promoLink}>Дарите яркие впечатления</span>{" "}
+            <span className={styles.promoLink} onClick={gotoAdv}>
+              Дарите яркие впечатления
+            </span>{" "}
             тем, кого любите: идеальный подарок друзьям, коллегам и близким.
           </p>
         </li>

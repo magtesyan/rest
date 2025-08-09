@@ -1,0 +1,135 @@
+.certForm {
+  background: var(--white);
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 16px;
+}
+
+.tabs {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.tab {
+  position: relative;
+  font-size: 24px;
+  color: var(--lightGray);
+
+  &_current {
+    color: var(--black);
+    font-weight: 500;
+
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: var(--red);
+      margin-top: 5px;
+    }
+  }
+}
+
+.formText {
+  font-size: 18px;
+  color: var(--black);
+  max-width: 600px;
+
+  &_info {
+    margin-bottom: 40px;
+  }
+
+  &_choosePrice {
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+}
+
+.priceList {
+  display: flex;
+  gap: 20px;
+}
+
+.formAndCertContainer {
+  display: flex;
+  gap: 50px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 620px;
+  margin-bottom: 20px;
+}
+
+.certContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 20px;
+  height: 355px;
+  width: 430px;
+  padding: 90px 40px 40px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(6, 4, 49, 0) 50%,
+      var(--black) 78.91%
+    ),
+    url("/restaurant.jpg");
+  border-radius: 8px;
+}
+
+.certTitleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.certContainerSubtitle {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.certContainerText {
+  font-size: 24px;
+}
+
+.certTitlsFlex {
+  display: flex;
+  gap: 50px;
+}
+
+.formTextarea,
+.formInput {
+  padding: 15px 20px;
+  background: var(--white);
+  border: 1px solid var(--lightGray);
+  border-radius: 8px;
+  color: var(--black);
+  font-size: 18px;
+  outline: none;
+  width: 100%;
+
+  &:focus {
+    outline: 1px solid var(--lightGray);
+  }
+}
+
+.payButtonContainer {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.consent {
+  font-size: 14px;
+  color: var(--black);
+}
+
+.blueLink {
+  color: var(--blue);
+}
