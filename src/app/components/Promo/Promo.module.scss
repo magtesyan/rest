@@ -1,0 +1,36 @@
+.promoTitle {
+  font-size: 52px;
+  max-width: 750px;
+  margin-bottom: 30px;
+}
+
+.promoList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.promoItem {
+  display: flex;
+  gap: 20px;
+  max-width: 555px;
+  border-bottom: 1px solid var(--gray);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.promoItemText {
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.promoLink {
+  font-weight: 500;
+  border-bottom: 2px dashed white;
+}
+
+.promoIcon {
+  width: 44px;
+  height: 44px;
+  opacity: 0.5;
+}

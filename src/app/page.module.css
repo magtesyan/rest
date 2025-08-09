@@ -1,0 +1,15 @@
+.page {
+  font-family: var(--font-rubik-sans);
+  background-image: url("/background.png");
+}
+
+.pageContainer {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
