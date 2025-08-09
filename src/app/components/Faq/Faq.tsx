@@ -89,7 +89,7 @@ export const Faq = () => {
   ];
 
   return (
-    <div className={styles.certForm} id="faq">
+    <div className={styles.faq} id="faq">
       <div className={styles.tabs}>
         <button
           className={clsx(

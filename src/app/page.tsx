@@ -6,6 +6,7 @@ import { Advantages } from "./components/Advantages/Advantages";
 import { CertForm } from "./components/CertForm/CertForm";
 import { HowWorks } from "./components/HowWorks/HowWorks";
 import { Faq } from "./components/Faq/Faq";
+import { Footer } from "./components/Footer/Footer";
 
 import styles from "./page.module.css";
 
@@ -21,7 +22,7 @@ export default function Home() {
           <HowWorks />
           <Faq />
         </main>
-        <footer className={styles.footer}></footer>
+        <Footer />
       </div>
     </div>
   );
