@@ -7,6 +7,7 @@ import { CertForm } from "./components/CertForm/CertForm";
 import { HowWorks } from "./components/HowWorks/HowWorks";
 import { Faq } from "./components/Faq/Faq";
 import { Footer } from "./components/Footer/Footer";
+import { Restaurants } from "./components/Restaurants/Restaurants";
 
 import styles from "./page.module.css";
 
@@ -18,6 +19,7 @@ export default function Home() {
         <main className={styles.main}>
           <Promo />
           <CertForm />
+          <Restaurants />
           <Advantages />
           <HowWorks />
           <Faq />

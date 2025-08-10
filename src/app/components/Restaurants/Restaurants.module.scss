@@ -1,0 +1,35 @@
+.restaurants {
+  padding: 20px;
+}
+
+.restaurantsTitle {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.restaurantsPromo {
+  font-size: 24px;
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.restaurantsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .restaurants {
+    max-height: 500px;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .restaurantsList {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+  }
+}
