@@ -18,8 +18,13 @@ export const Promo = () => {
             alt="Еда"
           />
           <p className={styles.promoItemText}>
-            <span className={styles.promoLink}>Более 100 ресторанов</span>, кафе
-            и баров Москвы. Каждую неделю добавляем новые.
+            <span
+              className={styles.promoLink}
+              onClick={() => goToSection("#restaurants")}
+            >
+              Более 100 ресторанов
+            </span>
+            , кафе и баров Москвы. Каждую неделю добавляем новые.
           </p>
         </li>
         <li className={styles.promoItem}>

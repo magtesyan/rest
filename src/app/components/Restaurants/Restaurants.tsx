@@ -5,7 +5,7 @@ import styles from "./Restaurants.module.scss";
 
 export const Restaurants = () => {
   return (
-    <section className={styles.restaurants}>
+    <section className={styles.restaurants} id="restaurants">
       <h2 className={styles.restaurantsTitle}>Подключенные рестораны</h2>
       <p className={styles.restaurantsPromo}>
         Сертификат дает возможность посетить самые интересные рестораны Москвы с
