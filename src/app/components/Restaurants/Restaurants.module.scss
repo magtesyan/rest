@@ -21,6 +21,12 @@
 }
 
 @media screen and (max-width: 767px) {
+  .restaurantsTitle {
+    width: 90vw;
+  }
+  .restaurantsPromo {
+    width: 90vw;
+  }
   .restaurantsListContainer {
     max-height: 260px;
     width: 90vw;
