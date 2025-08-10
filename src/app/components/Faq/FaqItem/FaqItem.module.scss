@@ -22,6 +22,8 @@
   right: 30px;
   width: 16px;
   height: 16px;
+  top: 50%;
+  transform: translateY(-50%);
 
   &_closed {
     transform: rotate((45deg));

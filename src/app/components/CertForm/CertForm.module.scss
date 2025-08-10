@@ -160,4 +160,9 @@
     order: 1;
     width: 80vw;
   }
+
+  .certTitlsFlex {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
