@@ -39,3 +39,16 @@
   font-size: 18px;
   color: var(--lightGray);
 }
+
+@media screen and (max-width: 767px) {
+  .adv {
+    max-height: 500px;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .advList {
+    overflow-x: auto;
+    padding-bottom: 50px;
+  }
+}

@@ -31,4 +31,12 @@
 .answer {
   color: var(--lightGray);
   font-size: 18px;
+  padding-right: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .faqItem {
+    width: 90vw;
+    padding: 15px 0;
+  }
 }

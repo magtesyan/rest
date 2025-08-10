@@ -1,6 +1,7 @@
 .promo {
   padding: 20px;
   margin-bottom: 30px;
+  max-width: 100vw;
 }
 
 .promoTitle {
@@ -39,4 +40,19 @@
   width: 44px;
   height: 44px;
   opacity: 0.5;
+}
+
+@media screen and (max-width: 767px) {
+  .promoTitle {
+    font-size: 26px;
+  }
+
+  .promoItemText {
+    font-size: 16px;
+  }
+
+  .promoItem {
+    padding: 0;
+    border: none;
+  }
 }

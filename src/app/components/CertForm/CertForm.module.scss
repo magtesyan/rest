@@ -3,6 +3,7 @@
   padding: 40px;
   margin-bottom: 30px;
   border-radius: 16px;
+  max-width: 100vw;
 }
 
 .tabs {
@@ -50,6 +51,7 @@
 
 .priceList {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -132,4 +134,25 @@
 
 .blueLink {
   color: var(--blue);
+}
+
+@media screen and (max-width: 767px) {
+  .formAndCertContainer {
+    flex-direction: column;
+  }
+
+  .formContainer {
+    order: 2;
+    width: 80vw;
+  }
+
+  .formTextarea,
+  .formInput {
+    width: 80vw;
+  }
+
+  .certContainer {
+    order: 1;
+    width: 80vw;
+  }
 }

@@ -35,6 +35,7 @@
 
 .faqLists {
   display: flex;
+  gap: 50px;
 }
 
 .faqList {
@@ -104,4 +105,18 @@
   font-weight: 500;
   font-size: 52px;
   color: var(--black);
+}
+
+@media screen and (max-width: 767px) {
+  .faq {
+    width: 100vw;
+    margin-bottom: 10px;
+  }
+  .faqLists {
+    flex-direction: column;
+    gap: 0;
+  }
+  .faqList {
+    gap: 0;
+  }
 }

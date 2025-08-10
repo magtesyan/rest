@@ -42,3 +42,23 @@
   font-size: 24px;
   line-height: 1.4;
 }
+
+@media screen and (max-width: 767px) {
+  .howWorks {
+    width: 100vw;
+  }
+  .howWorksTitle {
+    font-size: 26px;
+  }
+  .howWorksItem {
+    padding: 0;
+    border: none;
+
+    &_button {
+      height: 50px;
+    }
+  }
+  .howWorksText {
+    font-size: 16px;
+  }
+}
