@@ -11,11 +11,13 @@ export const Restaurants = () => {
         Сертификат дает возможность посетить самые интересные рестораны Москвы с
         отличной едой и атмосферой.
       </p>
-      <ul className={styles.restaurantsList}>
-        {rests.map((rest, index) => (
-          <RestItem key={index} rest={rest} />
-        ))}
-      </ul>
+      <div className={styles.restaurantsListContainer}>
+        <ul className={styles.restaurantsList}>
+          {rests.map((rest, index) => (
+            <RestItem key={index} rest={rest} />
+          ))}
+        </ul>
+      </div>
     </section>
   );
 };
